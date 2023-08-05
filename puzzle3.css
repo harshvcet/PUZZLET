@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #690c02;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white;
+    font-weight: bold;
+    
+    margin-top: 580px;
+}
+#puzz{
+    margin-top:10px;
+}
+#title{
+   height: 100px;
+   width: 100px;
+    transform: rotate(-20deg);
+}
+#p{
+    height: 100px;
+    width: 100px; 
+    transform: rotate(20deg);
+}
+#u{
+    height: 100px;
+    width: 100px; 
+    transform: rotate(20deg);
+}
+#z{
+    height: 100px;
+    width: 100px; 
+    transform: rotate(-20deg);
+}
+#z1{
+    height: 100px;
+    width: 100px; 
+    transform: rotate(20deg);
+}
+#l{
+    height: 100px;
+    width: 100px; 
+    transform: rotate(-20deg);
+}
+#e{
+    height: 100px;
+    width: 100px; 
+    transform: rotate(20deg);
+}
+#t{
+    height: 100px;
+    width: 100px; 
+    transform: rotate(-20deg);
+} 
+
+#board {
+    
+    width: 530px;
+    height: 470px;
+    background-color:#690c02;
+    border: 10px solid #690c02;
+
+    margin-left:-700px;
+    display:flex;
+    flex-wrap: wrap;
+}
+#winMessage {
+    margin-left:-2400px;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+   
+    
+}
+#board img {
+    display:flex ;   
+    width: 174px;
+    height: 150px;
+    border: 1px solid #690c02;
+}
+#turns{
+   
+    margin-top:-100px;
+    margin-left: 10px;
+}
+
+    button {
+        border-radius: 50px;
+        background-color:#EE964D;
+        border: none;
+        color: #fff;
+        text-align: center;
+        font-size: 32px;
+        padding: 16px;
+        width: 250px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 36px;
+        box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+      }
+      
+      button{
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      button:after {
+        content: '»';
+        position: absolute;
+        opacity: 0;  
+        top: 14px;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      button:hover{
+        padding-right: 24px;
+        padding-left:8px;
+      }
+      
+      button:hover:after {
+        opacity: 1;
+        right: 10px;
+      }
+      .text-box {
+        margin-left: 44vw;
+       margin-top: 42vh;
+       
+    }
+    
